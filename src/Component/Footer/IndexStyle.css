@@ -1,0 +1,301 @@
+/* Landing Banner */
+
+/* About Olvera */
+.olvera_about_main_block {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d772b6;
+}
+
+.olvera_about_content_sub_block {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_content_right_sub_c1_block {
+    width: 50%;
+}
+
+.olvera_about_logo_content_main_block {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.olvera_about_logo_block {
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+}
+
+.olvera_about_logo_block img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* Olvera Guide */
+.olvera_main_block {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./../../Assets/Images/olvera-guide.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.olvera_left_main_block {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.olvera_left_content_block {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.olvera_left_content_block h1 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.olvera_left_content_block p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin-top: 110px;
+}
+
+.olvera_content_for_mobile {
+    display: none;
+}
+
+.olvera_content_for_mobile h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.olvera_content_for_mobile h3 {
+    font-size: 25px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.olvera_right_main_block {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.olvera_right_content_block {
+    display: flex;
+}
+
+.olvera_right_content_block p {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* mediea code */
+@media only screen and (max-width: 800px) and (min-width: 0px) {
+    .olvera_main_block {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .olvera_left_main_block {
+        width: 100%;
+        height: auto;
+    }
+
+    .olvera_right_main_block {
+        width: 100%;
+        height: auto;
+    }
+
+    .olvera_left_content_block {
+        width: 80%;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .olvera_left_content_block p {
+        margin-top: 10px;
+    }
+
+    .olvera_content_for_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .olvera_content_for_mobile h3 {
+        line-height: 35px;
+    }
+
+    .olvera_content_for_mobile h2 {
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .olvera_about_main_block {
+        height: 600px;
+    }
+
+    .olvera_about_content_sub_block {
+        flex-direction: column;
+    }
+
+    .olvera_about_logo_content_main_block {
+        width: 95%;
+    }
+
+    .about_content_right_sub_c1_block {
+        width: 80%;
+    }
+
+    .olvera_about_logo_block {
+        width: 140px;
+        height: 50px;
+        margin: 15px 5px;
+    }
+
+}
+
+
+
+
+
+/* Carrer code */
+.career_main_section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.career_content_main_block {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./../../Assets/Images/career-content.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.career_content_block {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.career_content_block h1 {
+    font-size: 30px;
+    color: #d772b6;
+    font-weight: bold;
+
+}
+
+.career_content_block h2 {
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.career_content_block p {
+    font-size: 18px;
+    color: #000;
+}
+
+.career_btn {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.45em;
+    fill: #fff;
+    color: #000;
+    background-color: #d772b6;
+    border-radius: 25px;
+    padding: 12px 40px 12px 40px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.career_image_main_block {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.career_image_block {
+    width: 100%;
+    height: 90%;
+}
+
+.career_image_block img {
+    width: 100%;
+    height: 100%;
+}
+
+/* mediea code */
+@media only screen and (max-width: 800px) and (min-width: 0px) {
+    .career_main_section {
+        flex-direction: column;
+    }
+
+    .career_image_block,
+    .career_content_main_block {
+        width: 100%;
+    }
+
+    .career_content_block {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
+    .career_image_main_block {
+        width: 100%;
+    }
+
+}
