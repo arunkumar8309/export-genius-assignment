@@ -16,6 +16,14 @@
     font-weight: normal;
 }
 
+.all_header_block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    color: #fff;
+}
 
 .header_top_message_block {
     width: 100%;
